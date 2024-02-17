@@ -4,7 +4,7 @@ import { Root } from './components/Root'
 
 function App() {
   return (
-    <Router basename='/app'>
+    <Router>
       <Routes>
         <Route path='/' element={<Root />} />
       </Routes>
